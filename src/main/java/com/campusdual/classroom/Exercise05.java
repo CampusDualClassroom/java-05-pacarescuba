@@ -20,7 +20,7 @@ public class Exercise05 {
   }
 
   public static void checkMultiply(int n1, int n2) {
-    if (Math.floor((double) n1 / (double) n2) == (double) n1 / (double) n2) {
+    if (n1 % n2 == 0) {
       System.out.println(n1 + " es múltiplo de " + n2);
     } else {
       System.out.println(n1 + " no es múltiplo de " + n2);
